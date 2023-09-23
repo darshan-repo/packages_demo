@@ -70,10 +70,7 @@ class ImagePickerScreen extends StatelessWidget {
     );
   }
 
-  Widget iconbutton({
-    required void Function()? onPressed,
-    IconData? icon,
-  }) =>
+  Widget iconbutton({required void Function()? onPressed, IconData? icon}) =>
       CircleAvatar(
         maxRadius: 25,
         backgroundColor: Colors.red[200],
